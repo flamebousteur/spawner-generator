@@ -1,0 +1,2 @@
+#structure location#
+execute at @e[type=minecraft:end_crystal] if block ~ ~-1 ~ minecraft:netherite_block if block ~ ~-2 ~1 minecraft:gold_block if block ~ ~-2 ~-1 minecraft:gold_block if block ~1 ~-2 ~ minecraft:gold_block if block ~-1 ~-2 ~ minecraft:gold_block if block ~ ~-2 ~ minecraft:gold_block run function ex:a
